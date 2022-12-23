@@ -1,0 +1,12 @@
+#profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:  2rem;
+    img {
+        height: 6rem;
+        width: 6rem;
+        border-radius: 10px;
+    }
+}

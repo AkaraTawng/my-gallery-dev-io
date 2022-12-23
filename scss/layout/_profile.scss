@@ -1,12 +1,25 @@
 #profile {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    margin-top:  2rem;
+    margin-top: 2rem;
+    height: 9rem;
     img {
         height: 6rem;
         width: 6rem;
-        border-radius: 10px;
+        border-radius: 13px;
+        object-fit: cover;
+        margin-bottom: 3%;
+    }
+
+    h1 {
+        font-size: .9rem;
+        color: #4e5150;
+    }
+
+    h2 { 
+        font-size: .6rem;
+        color: #a9a9a9;
     }
 }

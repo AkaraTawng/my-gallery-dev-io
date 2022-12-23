@@ -2,17 +2,30 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
 #profile {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   margin-top: 2rem;
+  height: 9rem;
 }
 #profile img {
   height: 6rem;
   width: 6rem;
-  border-radius: 10px;
+  border-radius: 13px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 3%;
+}
+#profile h1 {
+  font-size: 0.9rem;
+  color: #4e5150;
+}
+#profile h2 {
+  font-size: 0.6rem;
+  color: #a9a9a9;
 }/*# sourceMappingURL=main.css.map */

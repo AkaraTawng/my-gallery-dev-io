@@ -28,4 +28,30 @@
 #profile h2 {
   font-size: 0.6rem;
   color: #a9a9a9;
+}
+
+.stat-card {
+  background-color: #e5e5e5;
+  height: 3rem;
+  width: 4.5rem;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.stat-card p.numbers {
+  color: #4e5150;
+  font-size: 0.7rem;
+}
+.stat-card p.label {
+  color: #bdbdbd;
+  font-size: 0.7rem;
+}
+
+#profile-stats {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 4%;
+  padding: 0 8%;
 }/*# sourceMappingURL=main.css.map */

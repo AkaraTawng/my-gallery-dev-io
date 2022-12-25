@@ -1,0 +1,6 @@
+.gallery-item {
+    .text {
+        font-size: 1rem;
+        font-size: clamp(1rem, 0.4rem + 3vw, 4rem);
+    }
+}

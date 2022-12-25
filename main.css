@@ -85,7 +85,6 @@
 }
 #grid-container .gallery-item:hover .text {
   opacity: 1;
-  color: white;
 }
 #grid-container .gallery-item:hover::after {
   opacity: 1;
@@ -112,7 +111,6 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 1.5rem;
   color: white;
   z-index: 3;
   transition: 0.3s ease-in-out;
@@ -124,4 +122,9 @@
 
 .h-3 {
   grid-row: span 2;
+}
+
+.gallery-item .text {
+  font-size: 1rem;
+  font-size: clamp(1rem, 0.4rem + 3vw, 4rem);
 }/*# sourceMappingURL=main.css.map */

@@ -12,12 +12,11 @@
 
         &:hover {
             .image img {
-                transform: scale(1.5);
+                transform: scale(1.1);
             }
 
             .text {
                 opacity: 1;
-                
             }
         }
 
@@ -51,7 +50,7 @@
 }
 
 .w-3 {
-    grid-column: span 3;
+    grid-column: span 2;
 }
 
 .h-3 {

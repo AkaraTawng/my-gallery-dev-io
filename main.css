@@ -60,7 +60,7 @@
 #grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
+  grid-gap: 18px;
   margin: 10% 3% 0 3%;
 }
 #grid-container .gallery-item {
@@ -79,6 +79,7 @@
   height: 100%;
   overflow: hidden;
   border-radius: 15px;
+  box-shadow: 2px 2px 10px 5px rgb(214, 212, 212);
 }
 #grid-container .gallery-item .image img {
   width: 100%;

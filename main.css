@@ -78,6 +78,7 @@
   width: 100%;
   height: 100%;
   overflow: hidden;
+  border-radius: 15px;
 }
 #grid-container .gallery-item .image img {
   width: 100%;
@@ -87,7 +88,6 @@
   -o-object-position: 50% 50%;
      object-position: 50% 50%;
   transition: 0.5s ease-in-out;
-  border-radius: 15px;
 }
 #grid-container .gallery-item .text {
   opacity: 0;

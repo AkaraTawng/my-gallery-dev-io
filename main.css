@@ -14,8 +14,8 @@
   height: 9rem;
 }
 #profile img {
-  height: 6rem;
-  width: 6rem;
+  width: clamp(6rem, 4.2rem + 9vw, 15rem);
+  height: clamp(6rem, 4.2rem + 9vw, 15rem);
   border-radius: 13px;
   -o-object-fit: cover;
      object-fit: cover;

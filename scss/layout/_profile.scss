@@ -4,10 +4,15 @@
     justify-content: space-around;
     align-items: center;
     margin-top: 2rem;
+    // margin-top: 13rem;
     height: 9rem;
     img {
-        height: 6rem;
-        width: 6rem;
+        // height: 6rem;
+        // height: 15rem;
+        // width: 15rem;
+        width: clamp(6rem, 4.2rem + 9vw, 15rem);
+        height: clamp(6rem, 4.2rem + 9vw, 15rem);
+        // width: 6rem;
         border-radius: 13px;
         object-fit: cover;
         margin-bottom: 3%;

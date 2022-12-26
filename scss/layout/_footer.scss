@@ -1,7 +1,28 @@
+#container {
+    min-height: 100%;
+}
+
+.main {
+    overflow: auto;
+    padding-bottom: 6rem;
+}
+
 footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    font-size: 0.6rem;
+    font-size: clamp(0.6rem, 0.3795rem + 1.1vw, 1.7rem);
+    position: relative;
+    color: #B9BDCF;
+    font-weight: 300;
     p {
+        font-weight: 200;
         a {
-            
+            cursor: pointer;
+            text-decoration: underline;
+            font-weight: 600;
         }
     }
 }

@@ -50,6 +50,11 @@
     border-radius: 35px;
   }
 }
+@media screen and (min-width: 1920px) {
+  .stat-card {
+    margin-right: 40px;
+  }
+}
 .stat-card p.numbers {
   color: #4e5150;
   font-size: 0.7rem;

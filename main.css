@@ -30,25 +30,35 @@
 
 .stat-card {
   background-color: #e5e5e5;
-  height: auto;
-  width: clamp(4.5rem, 2.4rem + 10.5vw, 15rem);
+  height: clamp(3rem, 1.8rem + 6vw, 9rem);
+  width: clamp(4.5rem, 2.4rem + 10.5vw, 13rem);
   padding: 2% 4%;
-  border-radius: 15px;
+  border-radius: 12px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-right: 15px;
 }
+@media screen and (min-width: 768px) {
+  .stat-card {
+    border-radius: 20px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .stat-card {
+    border-radius: 35px;
+  }
+}
 .stat-card p.numbers {
   color: #4e5150;
   font-size: 0.7rem;
-  font-size: 2rem;
+  font-size: clamp(0.7rem, 0.4395rem + 1.3vw, 2rem);
 }
 .stat-card p.label {
   color: #bdbdbd;
   font-size: 0.7rem;
-  font-size: 2rem;
+  font-size: clamp(0.7rem, 0.4395rem + 1.3vw, 2rem);
 }
 
 header {

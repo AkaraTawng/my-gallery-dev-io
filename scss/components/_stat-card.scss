@@ -1,12 +1,19 @@
 .stat-card {
     background-color: #e5e5e5;
-    // height: 3rem;
-    height: auto;
+    // height: 9rem;
+    height: clamp(3rem, 1.8rem + 6vw, 9rem);
+    // height: auto;
     // width: 4.5rem;
     // width: 15rem;
-    width: clamp(4.5rem, 2.4rem + 10.5vw, 15rem);
+    width: clamp(4.5rem, 2.4rem + 10.5vw, 13rem);
     padding: 2% 4%;
-    border-radius: 15px;
+    border-radius: 12px;
+    @include tablet {
+        border-radius: 20px;
+    }
+    @include desktop-lg {
+        border-radius: 35px;
+    }
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,13 +21,17 @@
     margin-right: 15px;
     p.numbers {
         color: #4e5150;
-        font-size: .7rem;
-        font-size: 2rem;
+        // font-size: .7rem;
+        // font-size: 2rem;
+        font-size: 0.7rem;
+        font-size: clamp(0.7rem, 0.4395rem + 1.3vw, 2rem);
     }
 
     p.label {
         color: #bdbdbd;
-        font-size: .7rem;
-        font-size: 2rem;
+        // font-size: .7rem;
+        // font-size: 2rem;
+        font-size: 0.7rem;
+        font-size: clamp(0.7rem, 0.4395rem + 1.3vw, 2rem);
     }
 }

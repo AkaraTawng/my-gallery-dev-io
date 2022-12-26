@@ -30,8 +30,9 @@
 
 .stat-card {
   background-color: #e5e5e5;
-  height: 3rem;
-  width: 4.5rem;
+  height: auto;
+  width: clamp(4.5rem, 2.4rem + 10.5vw, 15rem);
+  padding: 2% 4%;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -42,10 +43,12 @@
 .stat-card p.numbers {
   color: #4e5150;
   font-size: 0.7rem;
+  font-size: 2rem;
 }
 .stat-card p.label {
   color: #bdbdbd;
   font-size: 0.7rem;
+  font-size: 2rem;
 }
 
 header {
@@ -56,6 +59,7 @@ header {
   display: flex;
   justify-content: center;
   margin-top: 4%;
+  margin-top: 10%;
   padding: 0 8%;
 }
 

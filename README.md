@@ -1,6 +1,6 @@
 <!-- Please update valmy-gallery-dev-ioue in the {}  -->
 
-<h1 align="center">{Responsive Image Gallery}</h1>
+<h1 align="center">Responsive Image Gallery</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,16 +8,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://{my-image-gallery-dev-io.netlify.app}">
+    <a href="https://devchallenges.io/solutions/leBghuzy6V4aCmw9PuzG">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{}">
-      Solution
+    <a href="https://my-image-gallery-dev-io.netlify.app">
+      Site
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/0J1NxxGhOUYVq![dev-io-img-gallery](https://user-images.githubusercontent.com/93144064/213822706-7773916e-a08a-4c62-bc14-0eacc6afd0fe.png)
-ihwegfO">
+    <a href="https://devchallenges.io/challenges/gcbWLxG6wdennelX7b8I">
       Challenge
     </a>
   </h3>

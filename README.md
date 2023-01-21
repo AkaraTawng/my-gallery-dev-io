@@ -42,7 +42,7 @@
 
 
 ### Image Hover Overlay 
-![responsive ui gif](./gifs/img-gal-hover-overlay.gif)
+![image overlay gif](./gifs/img-gal-hover-overlay.gif)
 
 - Go to live [site](https://my-image-gallery-dev-io.netlify.app)
 - See the demo [here]( https://devchallenges.io/solutions/leBghuzy6V4aCmw9PuzG)

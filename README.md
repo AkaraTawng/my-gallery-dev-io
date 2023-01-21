@@ -37,6 +37,13 @@
 
 ![dev-io-img-gallery](https://user-images.githubusercontent.com/93144064/213823067-8d2adc29-d41e-41e9-9b90-b72c05f28380.png)
 
+### Fully Responsive UI
+![responsive ui gif](./gifs/img-gal-responsive-ui.gif)
+
+
+### Image Hover Overlay 
+![responsive ui gif](./gifs/img-gal-hover-overlay.gif)
+
 - Go to live [site](https://my-image-gallery-dev-io.netlify.app)
 - See the demo [here]( https://devchallenges.io/solutions/leBghuzy6V4aCmw9PuzG)
 - This was a quick build, and had no significant challenges.

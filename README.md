@@ -8,10 +8,6 @@
 
 <div align="center">
   <h3>
-    <a href="https://devchallenges.io/solutions/leBghuzy6V4aCmw9PuzG">
-      Demo
-    </a>
-    <span> | </span>
     <a href="https://my-image-gallery-dev-io.netlify.app">
       Site
     </a>
@@ -45,7 +41,6 @@
 ![image overlay gif](./gifs/img-gal-hover-overlay.gif)
 
 - Go to live [site](https://my-image-gallery-dev-io.netlify.app)
-- See the demo [here]( https://devchallenges.io/solutions/leBghuzy6V4aCmw9PuzG)
 - This was a quick build, and had no significant challenges.
 - I was able to practice my CSS Grid skills and add a image hover overlay effect.
 
